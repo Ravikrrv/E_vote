@@ -1,0 +1,82 @@
+/* Reset default browser styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar styling */
+.vote-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #9fa9a3;
+    color: #fff;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.navbar-left h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-link {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+    background-color:none;
+    color: black;
+}
+
+.logout-button {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+
+.logout-button:hover {
+    background-color:none;
+    color: black;
+}
+
+.Dashboard-button {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+
+.Dashboard-button:hover {
+    background-color:none;
+    color: black;
+}
